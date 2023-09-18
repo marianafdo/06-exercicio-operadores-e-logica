@@ -15,11 +15,11 @@
 
 let idade;
 let idadeMelhorAmigo;
-idade = prompt("Qual sua idade?");
-idadeMelhorAmigo = prompt("Qual a idade do seu melhor amigo?");
+idade = Number(prompt("Qual sua idade?"));
+idadeMelhorAmigo = Number(prompt("Qual a idade do seu melhor amigo?"));
 
 console.log("Sua idade é maior que a idade do seu melhor amigo?", (idade > idadeMelhorAmigo));
-console.log(Number(idade - idadeMelhorAmigo)); 
+console.log("Diferença das idades", Number(idade - idadeMelhorAmigo)); 
 
 // 2.
 let numeroPar;
